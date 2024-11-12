@@ -1,0 +1,42 @@
+<!---- html, css, js -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <link rel="stylesheet" href="calc.css"/>
+    </head>
+    <body>
+        <script src="calc.js"></script>
+        <div class="container" align="center">
+            <div>
+                <h1>Loan Interest Calc</h1>
+            </div>
+          <div>
+            <label for="pamt">Principle amount</label><br>
+            <input type="text" id="pamt" >
+            <span>&#8377;</span>
+          </div>
+          <div>
+         <label for="time">Time</label><br>
+            <input type="text" id="time" >
+            <span>Year(s)</span>
+          </div>
+          <div>
+            <label for="roi">Rate of intrest</label><br>
+            <input type="text" id="roi" autofocus>
+            <span>%</span>
+          </div><br>
+          <div align="center">
+            <button onclick="getAmount()">Calculate Amount</button>
+          </div>
+          <div>
+            <output id="intAmt"></output><br>
+            <output id="totAmt"></output>
+          </div>
+        </div>
+
+        <script src="calc.js"></script>
+
+        
+    </body>
+</html>

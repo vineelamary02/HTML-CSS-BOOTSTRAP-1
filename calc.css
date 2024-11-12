@@ -1,0 +1,46 @@
+.container{
+    width:400px;
+    height:400px;
+    margin:auto;
+    border-radius: 15px;
+    background-color:powderblue;
+    color: rebeccapurple;
+    box-shadow: 0 0 15px;
+    box-decoration-break: calc();
+    padding: 15px;
+}
+.container:hover{
+    background-color: lightpink;
+    color: brown;
+}
+h1{
+    text-decoration:black underline;
+}
+.container div{
+    margin-bottom: 15px;
+}
+span{
+    color:maroon;
+}
+input{
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid ;
+    font-size: 20px;
+}
+button{
+    width:180px;
+    height:35px;
+    border: 0;
+    outline:0;  
+    border-radius: 4px;
+    font-size: 18px;
+    background: linear-gradient(to right, #3300cc,#ff00cc);
+    color: white;
+    transition: linear all 500ms;
+}
+button:hover{
+     background: linear-gradient(to left, #3300cc,#ff00cc);
+     cursor: pointer;
+}
