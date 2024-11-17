@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        
+    </head>
+    <body>
+        <h3>Printing multiplication table</h3>
+        <input type="text" id="tn">
+        <button onclick="printTable()">Print table</button>
+        <br>
+        <output id="op"></output>
+        <script>
+            function printTable()
+            {
+                let n, res;
+                n=tn.value;
+                op.innerHTML=" ";
+                
+                for(i=1;i<=20;i++){
+                    res=n*i;
+                    op.innerHTML+= n+ '*' +i+ '=' +res+'<br>';
+                }
+            }
+        </script>
+    </body>
+</html>
