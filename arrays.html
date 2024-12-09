@@ -5,15 +5,24 @@
         
     </head>
     <body>
-        <h3>demo on array literal</h3>
+        <h3>demo on slice method</h3>
         <script>
-            let a=[];
-            document.write(`size ${a.length}<br>`);
-            document.write(`array ${a}<br>`);
-            a[0]=10;
-            a[1]=20;
-            document.write(`size ${a.length}<br>`);
-            document.write(`array ${a}<br>`);
+            
+          const elem=[10,20,30,40,50,60,70,80];
+          
+          let a=elem.slice(0,5);
+          let b=elem.slice(5);
+
+          document.write(`a ${a}<br>`);
+          document.write(`b ${b}<br>`);
+
+          document.write(`${elem.slice(-3)}<br>`);
+
+          for(i=1; i<elem.length; i++)
+          document.write(`${elem.slice(-i)}<br>`);
+
+         
+
         </script>
      
     </body>
